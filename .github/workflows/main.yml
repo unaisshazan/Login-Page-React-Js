@@ -1,0 +1,22 @@
+name: LOGIN
+
+on:
+  push:
+    branches: [ master ]
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Installing Node
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: 12 
+    - name: installing surge
+      run: npm install --global surge
+    - name: deploying using surge
+      run: surge ./ loginpage-frontend.surge.sh--token  ${{ secrets.LOGIN}}
