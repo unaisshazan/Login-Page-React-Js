@@ -33,7 +33,7 @@ function App() {
 
     <Paper elevation={3} className={classes.paper}>
     
-    <h1>Login</h1>
+    <h1>Login </h1>
     <form className={classes.paper} noValidate autoComplete="off">
   <TextField label="Email" /><br/> <br/> 
   <TextField  label="Password" /><br/>
