@@ -34,4 +34,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge 
     - name: Deploy Using Surge
-      run: surge ./ loginpage-frontend.surge.sh --token  ${{ secrets.LOGIN}}
+      run: surge ./build loginpage-frontend.surge.sh --token  ${{ secrets.LOGIN}}
