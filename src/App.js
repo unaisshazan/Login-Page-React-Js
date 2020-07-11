@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
-
+import NavBar from './Navbar';
 import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
@@ -20,8 +20,10 @@ const useStyles = makeStyles((theme) => ({
     
   height:500,
   width:300,
+  marginTop:'5%',
   margin: '0 auto',
   textAlign: "center",
+  padding:'2%',
  
 
   }
@@ -30,10 +32,11 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-
+   
+    <div className>
+    <NavBar/>
     <Paper elevation={3} className={classes.paper}>
-    
+   
     <h1>Login  </h1>
     <form className={classes.paper} noValidate autoComplete="off">
   <TextField label="Email" /><br/>  <br/> 
