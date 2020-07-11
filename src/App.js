@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   paper:{
     
   height:500,
-  width:400,
+  width:300,
   margin: '0 auto',
   textAlign: "center",
  
