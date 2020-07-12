@@ -19,7 +19,7 @@ const data = {
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-        hoverBorderColor: 'rgba(255,99,132,1)',
+        hoverBorderColor: 'yellow',
         data: [65, 59, 80, 81, 56, 55, 40]
       },
       {
@@ -27,7 +27,7 @@ const data = {
         backgroundColor: 'rgba(60,99,65,0.2)',
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
-        hoverBackgroundColor: 'rgba(155,99,132,0.4)',
+        hoverBackgroundColor: 'blue',
         hoverBorderColor: 'rgba(255,99,132,1)',
         data: [65, 59, 80, 81, 56, 55, 40]
       },
@@ -36,7 +36,7 @@ const data = {
         backgroundColor: 'rgba(15,99,75,0.2)',
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
-        hoverBackgroundColor: 'rgba(55,99,132,0.4)',
+        hoverBackgroundColor: 'brown',
         hoverBorderColor: 'rgba(255,99,132,1)',
         data: [65, 59, 80, 81, 56, 55, 40]
       },
@@ -45,9 +45,9 @@ const data = {
         backgroundColor: 'rgba(235,99,95,0.2)',
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
-        hoverBackgroundColor: 'rgba(100,99,132,0.4)',
+        hoverBackgroundColor: 'blue',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [65, 59, 80, 81, 56, 55, 40]
+        data: [65, 59, 80, 111, 56, 55, 40]
       }
   
   ]

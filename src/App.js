@@ -6,6 +6,7 @@ import NavBar from './Navbar';
 import ProgressBar from './ProgressBar'
 import TextField from '@material-ui/core/TextField';
 import BarChart from './chart'
+import PieChart from './Piechart'
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -53,6 +54,7 @@ function App() {
 
     </Paper>
     <BarChart/>
+    <PieChart/>
    
   </div>
   );
