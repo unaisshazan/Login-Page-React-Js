@@ -25,7 +25,7 @@ const data = {
 function PieChart(){
     return (
       <div>
-       <center> <h2>Pie Example</h2> <center>
+       <center> <h2>Pie Example</h2> </center>
         <Pie data={data} />
       </div>
     );
