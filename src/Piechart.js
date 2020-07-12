@@ -3,9 +3,9 @@ import {Pie} from 'react-chartjs-2';
 
 const data = {
 	labels: [
-		'Red',
-		'Blue',
-		'Yellow'
+		'Course 1',
+		'Course 2',
+		'Course 3'
 	],
 	datasets: [{
 		data: [300, 50, 100],
@@ -26,7 +26,7 @@ function PieChart(){
     return (
       <div style={{width:'50%', height:'50%' ,margin: '0 auto',
       textAlign: "center",}}>
-      <h2>Pie Example</h2> 
+      <h2>Pie Chart</h2> 
         <Pie data={data} /> 
       
       </div>
