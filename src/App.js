@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button';
 import NavBar from './Navbar';
 import ProgressBar from './ProgressBar'
 import TextField from '@material-ui/core/TextField';
-
+import BarChart from './chart'
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -52,6 +52,8 @@ function App() {
 
 
     </Paper>
+    <BarChart/>
+   
   </div>
   );
 }
