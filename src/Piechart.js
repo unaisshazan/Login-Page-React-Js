@@ -24,10 +24,9 @@ const data = {
 
 function PieChart(){
     return (
-      <div style={{width:'50%', height:'50%' ,margin: '0 auto',
-      textAlign: "center",}}>
-      <h2>Pie Chart</h2> 
-        <Pie data={data} /> 
+      <div>
+      <center><h2>Pie Chart</h2> </center>
+        <Pie data={data}  height={100}/> 
       
       </div>
     );
