@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import NavBar from './Navbar';
+import CircularProgressWithLabel from '@material-ui/core/CircularProgress';
 import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,8 +45,11 @@ function App() {
   <br/>   <br/><Button variant="contained" color="secondary">
         Login
       </Button>
-
+ 
+ <br/>     <br/>
+      <CircularProgressWithLabel value={50} />
 </form>
+
 
     </Paper>
   </div>
