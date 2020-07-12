@@ -5,17 +5,26 @@ const data = {
 	labels: [
 		'Course 1',
 		'Course 2',
-		'Course 3'
+        'Course 3',
+        'Course 4',
+		'Course 5',
+		'Course 6'
 	],
 	datasets: [{
-		data: [300, 50, 100],
+		data: [300, 50, 100,300, 50, 100],
 		backgroundColor: [
 		'#FF6384',
+		'#36A2EB',
+        '#FFCE56',
+        '#FF6384',
 		'#36A2EB',
 		'#FFCE56'
 		],
 		hoverBackgroundColor: [
 		'#FF6384',
+		'#36A2EB',
+        '#FFCE56',
+        '#FF6384',
 		'#36A2EB',
 		'#FFCE56'
 		]
