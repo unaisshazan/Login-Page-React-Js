@@ -45,9 +45,9 @@ function App() {
   <br/>   <br/><Button variant="contained" color="secondary">
         Login
       </Button>
- 
- <br/>     <br/>
-      <ProgressBar/>
+
+      <br/>
+      <br/><ProgressBar/>
 </form>
 
 
