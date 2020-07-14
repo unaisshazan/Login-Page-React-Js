@@ -3,42 +3,32 @@ import {Pie} from 'react-chartjs-2';
 
 const data = {
 	labels: [
-		'Course 1',
-		'Course 2',
-        'Course 3',
-        'Course 4',
-		'Course 5',
-		'Course 6'
+		'Red',
+		'Blue',
+		'Yellow'
 	],
 	datasets: [{
-		data: [300, 50, 100,300, 50, 100],
+		data: [300, 50, 100],
 		backgroundColor: [
 		'#FF6384',
-		'#36A2EB',
-        '#FFCE56',
-        '#FF6384',
 		'#36A2EB',
 		'#FFCE56'
 		],
 		hoverBackgroundColor: [
 		'#FF6384',
 		'#36A2EB',
-        '#FFCE56',
-        '#FF6384',
-		'#36A2EB',
 		'#FFCE56'
 		]
 	}]
 };
+function Piechart(){
 
-function PieChart(){
+
     return (
       <div>
-      <center><h2>Pie Chart</h2> </center>
-        <Pie data={data}  height={100}/> 
-      
+        <h2>Pie Example</h2>
+        <Pie data={data} />
       </div>
     );
   }
-
-export default PieChart;
+export default Piechart;
