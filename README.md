@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <h1> Watch Live</h1>
 http://loginpage-frontend.surge.sh/
 
-## Available Scripts
+
 
 In the project directory, you can run:
 
